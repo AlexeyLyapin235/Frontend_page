@@ -1,0 +1,83 @@
+body{
+    
+    text-align: center;
+    background-image: url(https://kurspresent.ru/assets/images/resources/869/-11.jpg) ;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header__сontent {
+    display: flex;
+    align-items: flex-end;
+    margin: 0, auto;
+    height: 30px;
+    width: 100%;
+   
+   
+}
+
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0, auto;
+    height: 65px; 
+    padding-bottom: 20px;
+}
+/* .link {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0, auto;
+    height: 65px; 
+    padding-bottom:20px ;
+    text-align: center;
+} */
+h2{
+    text-align: center;
+   
+}
+h6{
+    display: flex;
+    align-items: flex-end;
+}
+a:hover {
+    background-color: skyblue;
+}
+span{
+    color:red;
+    margin: 33px 20px 33px 33px;
+}
+.Information_container{
+    margin: 103px 0px 0px 0px;
+}
+.wrapper{
+    margin: 103px 0px 0px 0px;
+}
+.menu__item{
+    margin: 0px 0px 0px 0px;
+    margin-top: -30px;
+}
+.Fullcontainer{
+max-width: 1200px;
+margin: 0px auto;
+padding: 0px 15px;
+}
+@media (max-width:1200px){
+    .Fullcontainer{
+        max-width: 970px;
+    }
+}
+@media(max-width:992px){
+    .Fullcontainer{
+        max-width: 750px;
+    }
+}
+@media(max-width:767px){
+    .Fullcontainer{
+        max-width: none;
+    }
+}
+ul{
+    list-style: none;
+}
